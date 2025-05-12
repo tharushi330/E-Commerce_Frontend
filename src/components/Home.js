@@ -1,10 +1,9 @@
-import { Carousel } from 'bootstrap';
-
+import MyNavbar from './MyNavbar'; 
 
 function Home() {
     return (
-        <div className='carousel'>
-        <Carousel/>
+        <div>
+        <MyNavbar/>
       </div>
     );
   }
