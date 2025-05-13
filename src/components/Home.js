@@ -1,12 +1,13 @@
 import MyNavbar from './MyNavbar'; 
+import CarouselComponent from './CarouselComponent'; 
 
 function Home() {
     return (
         <div>
-        <MyNavbar/>
-      </div>
+            <MyNavbar/>
+            <CarouselComponent /> 
+        </div>
     );
-  }
-  
-  export default Home;
-  
+}
+
+export default Home;
