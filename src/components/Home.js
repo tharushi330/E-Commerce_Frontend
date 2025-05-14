@@ -1,6 +1,7 @@
 import MyNavbar from './MyNavbar'; 
 import CarouselComponent from './CarouselComponent'; 
 import PromoBanner from './PromoBanner';
+import PopularCategories from './PopularCategories';
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <MyNavbar/>
             <CarouselComponent /> 
             <PromoBanner/>
+            <PopularCategories />
         </div>
     );
 }
