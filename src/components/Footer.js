@@ -8,7 +8,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* QUICK RIDE Description */}
           <div className="md:col-span-1">
-            <h2 className="mb-4 text-lg font-semibold uppercase text-gray-300">QUICK RIDE</h2>
+            <h2 className="mb-4 text-lg font-semibold uppercase text-gray-300">MyGiFT Hut</h2>
             <p className="text-gray-400 font-medium">
               “As a leading Sri Lanka car rental service provider, ‘Quick Ride’ offers one of the practical car rental choices for tourists, businessmen and locals who want to visit and explore the ‘Pearl of the Indian Ocean’.”
             </p>

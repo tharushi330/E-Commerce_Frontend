@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar as BootstrapNavbar, Nav, Form, FormControl, Button, Container, Dropdown } from 'react-bootstrap';
 import { FaSearch, FaUser, FaShoppingCart, FaList } from 'react-icons/fa';
 import Logo from "../assets/MyGiftHut logo.png";
+import { Link } from 'react-router-dom';
 
 function MyNavbar() {
   return (
@@ -54,12 +55,12 @@ function MyNavbar() {
           </Dropdown>
 
           <Nav className="ms-3">
-            <Nav.Link href="#" className="fw-bold">Home</Nav.Link>
-            <Nav.Link href="#" className="fw-bold">Gift Packs</Nav.Link>
-            <Nav.Link href="#" className="fw-bold">Flowers</Nav.Link>
-            <Nav.Link href="#" className="fw-bold">Cakes</Nav.Link>
-            <Nav.Link href="#" className="fw-bold">Toys</Nav.Link>
-            <Nav.Link href="#" className="fw-bold">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/" className="fw-bold">Home</Nav.Link>
+            <Nav.Link as={Link} to="/giftpack" className="fw-bold">Gift Packs</Nav.Link>
+            <Nav.Link as={Link} to="/flowers" className="fw-bold">Flowers</Nav.Link>
+            <Nav.Link as={Link} to="/cakes" className="fw-bold">Cakes</Nav.Link>
+            <Nav.Link as={Link} to="/toys" className="fw-bold">Toys</Nav.Link>
+            <Nav.Link as={Link} to="/contact" className="fw-bold">Contact</Nav.Link>
           </Nav>
 
 
